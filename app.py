@@ -3,7 +3,6 @@ import json
 import streamlit as st
 import pandas as pd
 from groq import Groq
-
 # Define the working directory and load the data
 working_dir = os.path.dirname(os.path.abspath(_file_))
 config_data = json.load(open(f"{working_dir}/config.json"))
